@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "Apoph'ISExtension",
+  "version": "1.1.0",
+
+  "description": "Extension notifiant l'utilisateur lors du lancement d'un Live de la chaine Twitch Apoph'ISEN.",
+
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png"
+  },
+  
+  "permissions": [
+	"activeTab",
+	"notifications",
+	"alarms"
+  ],
+  "browser_action": {
+    "default_icon": "icons/logo-32-offline.png",
+    "default_title": "Apoph'ISEN",
+    "default_popup": "popup/popup.html"
+  },
+  
+  "background": {
+    "scripts": ["statusChecker.js"]
+	}
+}

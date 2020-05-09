@@ -1,0 +1,89 @@
+@font-face {
+    font-family: agalega;
+    src: url("AGALEGA-Regular.otf") format("opentype");
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 314px;
+	background-image: url("banner.png");
+	height: 106px;
+	width: 384px;
+}
+
+body > *{
+	text-align: center;
+}
+
+#mainDiv {
+	margin-left: 105px;
+	margin-top: 38px;
+}
+
+h2 {
+	margin: 1px;
+	color: white;
+	font-size: 13px;
+		
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #000;
+	
+	background: -webkit-linear-gradient(#fff, #999);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#status {
+	font-family: agalega, "Arial Black", arial;
+}
+#statusBullet {
+	width: 12px;
+	height: 12px;
+}
+
+#statusGame {
+	font-family: agalega, sans-serif;
+}
+
+#channelLink > img, #facebookLink > img {
+	margin: 5px 10px 10px 10px;
+	padding: 3px;
+	height: 30px;
+	text-decoration: none;
+	border-radius: 7px;
+}
+#channelLink > img:hover, #facebookLink > img:hover {
+	background-color: rgba(100,100,100,0.3);
+}
+
+#facebookLink > img {
+	width: 30px;
+}
+#channelLink > img {
+	width: 80px;
+}
+
+#broadcastInfoDiv {
+	display: none;
+	margin: 0px;
+	margin-top: 20px;
+	height: 272px;
+	
+	background-color: rgba(0,0,0,1);
+}
+
+h3 {
+	font-family: agalega, "Arial Black", arial;
+	
+	margin: 0px;
+	margin-bottom: 2px;
+	padding: 0px;
+	color: white;
+	font-size: 12px;
+	height: 30px;
+	
+	background: -webkit-linear-gradient(#aaa, #fff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
